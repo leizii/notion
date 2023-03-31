@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Notionic',
+  title: 'Deepro AIGC',
   author: 'DEEPRO',
   email: 'goodntone@gmail.com',
   link: 'https://deepro.cc',
