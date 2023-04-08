@@ -68,7 +68,7 @@ const NavBar = () => {
     }
     {
       id: 5,
-      name: t.NAV.CHTFGPT,
+      name: https：deepro.cc,
       to: BLOG.path || '/',
       icon: <HomeIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
