@@ -66,6 +66,13 @@ const NavBar = () => {
       icon: <SearchIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     }
+    {
+      id: 5,
+      name: t.NAV.CHTFGPT,
+      to: BLOG.path || '/',
+      icon: <HomeIcon className='inline-block mb-1 h-5 w-5' />,
+      show: true
+    },
   ]
   return (
     <motion.div className='flex'>
