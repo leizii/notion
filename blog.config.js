@@ -16,7 +16,7 @@ const BLOG = {
   sortByDate: true,
   pagesShow: {
     newsletter: true,
-    chatgpt：true,
+    chatgpt: true,
     notes: false,
     projects: true,
     contact: false,
