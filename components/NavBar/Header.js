@@ -67,12 +67,13 @@ const links = [
       show: true
     },
     {
-      id: 5,
-      name: 'https：deepro.cc',
-      to: BLOG.path || '/',
-      icon: <HomeIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
+    {
+  id: 5,
+  name: "About",
+  to: "/about",
+  icon: <InformationCircleIcon className="inline-block mb-1 h-5 w-5" />,
+  show: true,
+   },
   ]
 
   return (
