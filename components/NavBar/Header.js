@@ -30,7 +30,7 @@ const NavBar = () => {
     activeMenu = router.pathname
   }
 
-  const links = [
+const links = [
     {
       id: 0,
       name: t.NAV.INDEX,
@@ -65,15 +65,16 @@ const NavBar = () => {
       to: '/search',
       icon: <SearchIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
-    }
+    },
     {
       id: 5,
-      name: https：deepro.cc,
+      name: 'https：deepro.cc',
       to: BLOG.path || '/',
       icon: <HomeIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     },
   ]
+
   return (
     <motion.div className='flex'>
       {/* Desktop Menu */}
